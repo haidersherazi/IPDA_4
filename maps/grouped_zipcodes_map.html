@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04fe6d7cfc9ab44e1244550d2a446185 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_04fe6d7cfc9ab44e1244550d2a446185" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_04fe6d7cfc9ab44e1244550d2a446185 = L.map(
+                "map_04fe6d7cfc9ab44e1244550d2a446185",
+                {
+                    center: [51.1657, 10.4515],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_01e8d7387f262f4bced0b69e2edd226f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_01e8d7387f262f4bced0b69e2edd226f.addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+            var marker_05de20c5c443ded088af5651fdbe1c85 = L.marker(
+                [48.558267118403286, 8.970685255690737],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_bfcc358f8d26ac549a508998d94ac7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38423c012336c85751632df4bb7a10d3 = $(`<div id="html_38423c012336c85751632df4bb7a10d3" style="width: 100.0%; height: 100.0%;">Land: Baden-Württemberg<br>Zip Code Count: 1247</div>`)[0];
+                popup_bfcc358f8d26ac549a508998d94ac7f6.setContent(html_38423c012336c85751632df4bb7a10d3);
+            
+        
+
+        marker_05de20c5c443ded088af5651fdbe1c85.bindPopup(popup_bfcc358f8d26ac549a508998d94ac7f6)
+        ;
+
+        
+    
+    
+            var marker_e197c860c0336d88077a9b791b87f3ce = L.marker(
+                [48.92985563892019, 11.319443001636579],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_3b61cdee27ffa9b60f0751c32caa3b58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b90cb9ed802adbe2d7986bd0ee0179f = $(`<div id="html_4b90cb9ed802adbe2d7986bd0ee0179f" style="width: 100.0%; height: 100.0%;">Land: Bayern<br>Zip Code Count: 2061</div>`)[0];
+                popup_3b61cdee27ffa9b60f0751c32caa3b58.setContent(html_4b90cb9ed802adbe2d7986bd0ee0179f);
+            
+        
+
+        marker_e197c860c0336d88077a9b791b87f3ce.bindPopup(popup_3b61cdee27ffa9b60f0751c32caa3b58)
+        ;
+
+        
+    
+    
+            var marker_1ca1a64d7f5a822842ee8eab33b0df05 = L.marker(
+                [52.503681059148995, 13.391221983388888],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_85cf3361cf28cd67dbb76f328cefb5da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57cbf6c8276d3ae3835b0c553cdf00f3 = $(`<div id="html_57cbf6c8276d3ae3835b0c553cdf00f3" style="width: 100.0%; height: 100.0%;">Land: Berlin<br>Zip Code Count: 198</div>`)[0];
+                popup_85cf3361cf28cd67dbb76f328cefb5da.setContent(html_57cbf6c8276d3ae3835b0c553cdf00f3);
+            
+        
+
+        marker_1ca1a64d7f5a822842ee8eab33b0df05.bindPopup(popup_85cf3361cf28cd67dbb76f328cefb5da)
+        ;
+
+        
+    
+    
+            var marker_78de931a47c428aba107f98faee1bddc = L.marker(
+                [52.40748171097168, 13.44688153977876],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_c6ccf9820ceea997a4ed9f9e965e72c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15a1a8f97116092d5ee38061aa156114 = $(`<div id="html_15a1a8f97116092d5ee38061aa156114" style="width: 100.0%; height: 100.0%;">Land: Brandenburg<br>Zip Code Count: 226</div>`)[0];
+                popup_c6ccf9820ceea997a4ed9f9e965e72c0.setContent(html_15a1a8f97116092d5ee38061aa156114);
+            
+        
+
+        marker_78de931a47c428aba107f98faee1bddc.bindPopup(popup_c6ccf9820ceea997a4ed9f9e965e72c0)
+        ;
+
+        
+    
+    
+            var marker_08eecf90ecda17ec5bba76427b74e055 = L.marker(
+                [53.19727992741364, 8.7490937258475],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_46621b10f20a605266d3639fc4100bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d9e1cd2fbd610f247b6212bd7374a99 = $(`<div id="html_1d9e1cd2fbd610f247b6212bd7374a99" style="width: 100.0%; height: 100.0%;">Land: Bremen<br>Zip Code Count: 44</div>`)[0];
+                popup_46621b10f20a605266d3639fc4100bf1.setContent(html_1d9e1cd2fbd610f247b6212bd7374a99);
+            
+        
+
+        marker_08eecf90ecda17ec5bba76427b74e055.bindPopup(popup_46621b10f20a605266d3639fc4100bf1)
+        ;
+
+        
+    
+    
+            var marker_7537ab81ae133c11bec0a464918786c6 = L.marker(
+                [53.58077110433853, 9.983792608658623],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_1747f5c6dd9e6fed1ceaae3aff0285c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3a7b8bc9f47fcd079bdd21f330ebef2 = $(`<div id="html_f3a7b8bc9f47fcd079bdd21f330ebef2" style="width: 100.0%; height: 100.0%;">Land: Hamburg<br>Zip Code Count: 109</div>`)[0];
+                popup_1747f5c6dd9e6fed1ceaae3aff0285c5.setContent(html_f3a7b8bc9f47fcd079bdd21f330ebef2);
+            
+        
+
+        marker_7537ab81ae133c11bec0a464918786c6.bindPopup(popup_1747f5c6dd9e6fed1ceaae3aff0285c5)
+        ;
+
+        
+    
+    
+            var marker_fe62446b353aec1f643dd9ed3b19c653 = L.marker(
+                [50.480034281879895, 8.900960198789928],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_0bb56308807b86b7506eb5c4f3ea4f4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6ec2eca10ce42c0154070e5d4efdfd8 = $(`<div id="html_b6ec2eca10ce42c0154070e5d4efdfd8" style="width: 100.0%; height: 100.0%;">Land: Hessen<br>Zip Code Count: 557</div>`)[0];
+                popup_0bb56308807b86b7506eb5c4f3ea4f4d.setContent(html_b6ec2eca10ce42c0154070e5d4efdfd8);
+            
+        
+
+        marker_fe62446b353aec1f643dd9ed3b19c653.bindPopup(popup_0bb56308807b86b7506eb5c4f3ea4f4d)
+        ;
+
+        
+    
+    
+            var marker_f296c86f09b4a4fdbfa63fecc0e7b4f8 = L.marker(
+                [53.882982988852824, 12.684683194631047],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_e2012da93f762b2fae498c2e34affd71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d932ce7eb4777ed1119b6b391958cef = $(`<div id="html_8d932ce7eb4777ed1119b6b391958cef" style="width: 100.0%; height: 100.0%;">Land: Mecklenburg-Vorpommern<br>Zip Code Count: 248</div>`)[0];
+                popup_e2012da93f762b2fae498c2e34affd71.setContent(html_8d932ce7eb4777ed1119b6b391958cef);
+            
+        
+
+        marker_f296c86f09b4a4fdbfa63fecc0e7b4f8.bindPopup(popup_e2012da93f762b2fae498c2e34affd71)
+        ;
+
+        
+    
+    
+            var marker_c4ee1e87cb7f11a81f43b74559284396 = L.marker(
+                [52.70162571448287, 9.403350146296766],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_f0b9ba709000f03ad68d2c5dd5a4f012 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa2772ad62db18e1921e99d610385479 = $(`<div id="html_fa2772ad62db18e1921e99d610385479" style="width: 100.0%; height: 100.0%;">Land: Niedersachsen<br>Zip Code Count: 835</div>`)[0];
+                popup_f0b9ba709000f03ad68d2c5dd5a4f012.setContent(html_fa2772ad62db18e1921e99d610385479);
+            
+        
+
+        marker_c4ee1e87cb7f11a81f43b74559284396.bindPopup(popup_f0b9ba709000f03ad68d2c5dd5a4f012)
+        ;
+
+        
+    
+    
+            var marker_d749dac89b0369721fbc98c23056e0c2 = L.marker(
+                [51.39603465205542, 7.285719539437842],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_6643894aaf911d001e0e8e9e5ac11c50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb1173d8dcfe8b23c7d5bdfc4acd37b4 = $(`<div id="html_eb1173d8dcfe8b23c7d5bdfc4acd37b4" style="width: 100.0%; height: 100.0%;">Land: Nordrhein-Westfalen<br>Zip Code Count: 904</div>`)[0];
+                popup_6643894aaf911d001e0e8e9e5ac11c50.setContent(html_eb1173d8dcfe8b23c7d5bdfc4acd37b4);
+            
+        
+
+        marker_d749dac89b0369721fbc98c23056e0c2.bindPopup(popup_6643894aaf911d001e0e8e9e5ac11c50)
+        ;
+
+        
+    
+    
+            var marker_a7ab317ec86f1ef837207e19e597f00e = L.marker(
+                [49.87962020410209, 7.60419502440293],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_ac28a7616aef886d06f5410c057206b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_584bf8ad8df27c334c37b5e3dd28836b = $(`<div id="html_584bf8ad8df27c334c37b5e3dd28836b" style="width: 100.0%; height: 100.0%;">Land: Rheinland-Pfalz<br>Zip Code Count: 860</div>`)[0];
+                popup_ac28a7616aef886d06f5410c057206b8.setContent(html_584bf8ad8df27c334c37b5e3dd28836b);
+            
+        
+
+        marker_a7ab317ec86f1ef837207e19e597f00e.bindPopup(popup_ac28a7616aef886d06f5410c057206b8)
+        ;
+
+        
+    
+    
+            var marker_5e4a9dd61a2c04ee6cea610ee9405a3b = L.marker(
+                [49.33725968081014, 6.973463752296956],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_6ac1a6a48ef393273089cbd8e1ac9743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4060fb1a0210a203e39ac03c67c48753 = $(`<div id="html_4060fb1a0210a203e39ac03c67c48753" style="width: 100.0%; height: 100.0%;">Land: Saarland<br>Zip Code Count: 69</div>`)[0];
+                popup_6ac1a6a48ef393273089cbd8e1ac9743.setContent(html_4060fb1a0210a203e39ac03c67c48753);
+            
+        
+
+        marker_5e4a9dd61a2c04ee6cea610ee9405a3b.bindPopup(popup_6ac1a6a48ef393273089cbd8e1ac9743)
+        ;
+
+        
+    
+    
+            var marker_ca6004667f95eb323145a211c7c779bf = L.marker(
+                [50.970071565089434, 13.195132320811322],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_702f2735a1162f04a9ee896d4c3a88fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f91856a35bcbd503ca6173467965d10 = $(`<div id="html_6f91856a35bcbd503ca6173467965d10" style="width: 100.0%; height: 100.0%;">Land: Sachsen<br>Zip Code Count: 265</div>`)[0];
+                popup_702f2735a1162f04a9ee896d4c3a88fc.setContent(html_6f91856a35bcbd503ca6173467965d10);
+            
+        
+
+        marker_ca6004667f95eb323145a211c7c779bf.bindPopup(popup_702f2735a1162f04a9ee896d4c3a88fc)
+        ;
+
+        
+    
+    
+            var marker_308a3a73fa40904e63b9f618a25f5345 = L.marker(
+                [51.887492902249996, 11.660546277513264],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_fad38cea09c436e6c8814534c7826b76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cf603e10ca808c0b6a18e40a4419dc2 = $(`<div id="html_9cf603e10ca808c0b6a18e40a4419dc2" style="width: 100.0%; height: 100.0%;">Land: Sachsen-Anhalt<br>Zip Code Count: 196</div>`)[0];
+                popup_fad38cea09c436e6c8814534c7826b76.setContent(html_9cf603e10ca808c0b6a18e40a4419dc2);
+            
+        
+
+        marker_308a3a73fa40904e63b9f618a25f5345.bindPopup(popup_fad38cea09c436e6c8814534c7826b76)
+        ;
+
+        
+    
+    
+            var marker_c8238deaedeb7a922ea41b38da9f9c0d = L.marker(
+                [54.13875855454482, 9.822079397761932],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_555d977c61e418cb64ee09b839a77ed4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d88e2bc4f0243bf96b534f7bd3f2222f = $(`<div id="html_d88e2bc4f0243bf96b534f7bd3f2222f" style="width: 100.0%; height: 100.0%;">Land: Schleswig-Holstein<br>Zip Code Count: 502</div>`)[0];
+                popup_555d977c61e418cb64ee09b839a77ed4.setContent(html_d88e2bc4f0243bf96b534f7bd3f2222f);
+            
+        
+
+        marker_c8238deaedeb7a922ea41b38da9f9c0d.bindPopup(popup_555d977c61e418cb64ee09b839a77ed4)
+        ;
+
+        
+    
+    
+            var marker_f35b7f292e9f1e65e011b7d29b3d78fd = L.marker(
+                [50.87460508169104, 11.051071913836463],
+                {}
+            ).addTo(map_04fe6d7cfc9ab44e1244550d2a446185);
+        
+    
+        var popup_fab129633d2d1a240955306e4d7e830d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7e66f6c99ae679a7a5c690cd5e97ab7 = $(`<div id="html_c7e66f6c99ae679a7a5c690cd5e97ab7" style="width: 100.0%; height: 100.0%;">Land: Thüringen<br>Zip Code Count: 212</div>`)[0];
+                popup_fab129633d2d1a240955306e4d7e830d.setContent(html_c7e66f6c99ae679a7a5c690cd5e97ab7);
+            
+        
+
+        marker_f35b7f292e9f1e65e011b7d29b3d78fd.bindPopup(popup_fab129633d2d1a240955306e4d7e830d)
+        ;
+
+        
+    
+</script>
+</html>
